@@ -1,0 +1,143 @@
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  .road { padding: 1.5rem 0 2rem; font-family: var(--font-sans); }
+  .phase { margin-bottom: 2rem; }
+  .phase-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+  .phase-num { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 500; flex-shrink: 0; }
+  .phase-title { font-size: 15px; font-weight: 500; color: var(--color-text-primary); }
+  .phase-sub { font-size: 12px; color: var(--color-text-secondary); margin-left: auto; }
+  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 8px; }
+  .step { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); padding: 10px 12px; cursor: pointer; transition: border-color .15s; }
+  .step:hover { border-color: var(--color-border-secondary); }
+  .step-name { font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 3px; }
+  .step-desc { font-size: 11px; color: var(--color-text-secondary); line-height: 1.5; margin: 0; }
+  .divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1.5rem 0; }
+  .stack-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1.5rem; }
+  .stack-pill { font-size: 12px; padding: 5px 12px; border-radius: 99px; border: 0.5px solid var(--color-border-tertiary); color: var(--color-text-secondary); background: var(--color-background-secondary); }
+  .stack-pill.core { border-color: #1D9E75; color: #085041; background: #E1F5EE; }
+  .now-btn { font-size: 13px; padding: 8px 20px; border: 0.5px solid var(--color-border-secondary); border-radius: var(--border-radius-md); background: transparent; color: var(--color-text-primary); cursor: pointer; margin-top: 4px; }
+  .now-btn:hover { background: var(--color-background-secondary); }
+</style>
+
+<div class="road">
+
+  <p style="font-size: 13px; color: var(--color-text-secondary); margin: 0 0 1.5rem;">Your build path — 4 phases, start to launch</p>
+
+  <div class="phase">
+    <div class="phase-header">
+      <div class="phase-num" style="background:#E1F5EE; color:#085041;">1</div>
+      <span class="phase-title">Foundation</span>
+      <span class="phase-sub">Day 1</span>
+    </div>
+    <div class="steps">
+      <div class="step" onclick="sendPrompt('Show me exactly how to install Node.js and create a Next.js project from scratch for the dharma retreat website')">
+        <p class="step-name">Install Node.js</p>
+        <p class="step-desc">The engine that runs everything locally on your machine</p>
+      </div>
+      <div class="step" onclick="sendPrompt('Show me the exact terminal commands to create a new Next.js project with Tailwind CSS called dharma-guide')">
+        <p class="step-name">Create Next.js app</p>
+        <p class="step-desc">One command scaffolds your entire project structure</p>
+      </div>
+      <div class="step" onclick="sendPrompt('Explain the Next.js folder structure for a noob — what is app/, components/, public/, and data/?')">
+        <p class="step-name">Understand the folder structure</p>
+        <p class="step-desc">Know where every file lives and why</p>
+      </div>
+      <div class="step" onclick="sendPrompt('Create the retreats.json data file with all retreat centers from the PDF')">
+        <p class="step-name">Create retreats.json</p>
+        <p class="step-desc">All retreat data from the PDF in one structured file</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-header">
+      <div class="phase-num" style="background:#E6F1FB; color:#0C447C;">2</div>
+      <span class="phase-title">Core pages</span>
+      <span class="phase-sub">Week 1</span>
+    </div>
+    <div class="steps">
+      <div class="step" onclick="sendPrompt('Build the Homepage for the dharma retreat website in Next.js')">
+        <p class="step-name">Homepage</p>
+        <p class="step-desc">Hero, top picks, search bar, Wolf's intro quote</p>
+      </div>
+      <div class="step" onclick="sendPrompt('Build the Browse Retreats page with country filter tabs in Next.js')">
+        <p class="step-name">Browse page</p>
+        <p class="step-desc">Country filters, retreat cards, search</p>
+      </div>
+      <div class="step" onclick="sendPrompt('Build the Retreat Detail page for a single retreat in Next.js using dynamic routing')">
+        <p class="step-name">Retreat detail page</p>
+        <p class="step-desc">Dynamic route — one page that works for all retreats</p>
+      </div>
+      <div class="step" onclick="sendPrompt('Build the Red Flags page for the dharma retreat website')">
+        <p class="step-name">Red flags page</p>
+        <p class="step-desc">Blacklist, cult checklist, Wayanad appendix</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-header">
+      <div class="phase-num" style="background:#FAEEDA; color:#633806;">3</div>
+      <span class="phase-title">Polish & features</span>
+      <span class="phase-sub">Week 2</span>
+    </div>
+    <div class="steps">
+      <div class="step" onclick="sendPrompt('Add a Leaflet.js map to the dharma retreat website showing all retreat locations')">
+        <p class="step-name">Interactive map</p>
+        <p class="step-desc">Leaflet.js pins for all retreat locations</p>
+      </div>
+      <div class="step" onclick="sendPrompt('Add a search feature to the dharma retreat browse page using Fuse.js fuzzy search')">
+        <p class="step-name">Search</p>
+        <p class="step-desc">Fuzzy search across retreat names and locations</p>
+      </div>
+      <div class="step" onclick="sendPrompt('Add SEO metadata and Open Graph tags to the dharma retreat Next.js site')">
+        <p class="step-name">SEO metadata</p>
+        <p class="step-desc">Each page gets title, description, og:image</p>
+      </div>
+      <div class="step" onclick="sendPrompt('Add a submit a retreat form to the dharma retreat website using a Notion or Airtable backend')">
+        <p class="step-name">Submit a retreat</p>
+        <p class="step-desc">Community submission form — Notion or Airtable backend</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-header">
+      <div class="phase-num" style="background:#EEEDFE; color:#3C3489;">4</div>
+      <span class="phase-title">Launch</span>
+      <span class="phase-sub">Day ~14</span>
+    </div>
+    <div class="steps">
+      <div class="step" onclick="sendPrompt('How do I push my Next.js project to GitHub for the first time?')">
+        <p class="step-name">Push to GitHub</p>
+        <p class="step-desc">Version control — your safety net</p>
+      </div>
+      <div class="step" onclick="sendPrompt('How do I deploy my Next.js dharma retreat site to Vercel for free?')">
+        <p class="step-name">Deploy to Vercel</p>
+        <p class="step-desc">Connect GitHub → auto-deploys on every save</p>
+      </div>
+      <div class="step" onclick="sendPrompt('How do I connect a custom domain to my Vercel Next.js deployment?')">
+        <p class="step-name">Custom domain</p>
+        <p class="step-desc">dharmaretreats.com or similar</p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 10px;">Your core stack</p>
+  <div class="stack-row">
+    <span class="stack-pill core">Next.js 14</span>
+    <span class="stack-pill core">Tailwind CSS</span>
+    <span class="stack-pill core">JSON data files</span>
+    <span class="stack-pill">Leaflet.js (maps)</span>
+    <span class="stack-pill">Fuse.js (search)</span>
+    <span class="stack-pill">Vercel (hosting)</span>
+    <span class="stack-pill">GitHub (version control)</span>
+  </div>
+
+  <button class="now-btn" onclick="sendPrompt('Start Phase 1 — show me exactly how to install Node.js and create the Next.js dharma retreat project from scratch, step by step')">Start Phase 1 now ↗</button>
+
+</div>

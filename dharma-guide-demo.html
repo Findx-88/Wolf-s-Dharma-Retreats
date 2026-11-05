@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wolf's Guide to Dharma Retreats</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #0d1a0d;
+    --parchment: #f5f0e8;
+    --parchment-dark: #ede6d4;
+    --ochre: #d49a42;
+    --ochre-light: #e8a855;
+    --forest: #2d4a2d;
+    --forest-light: #3d6b3d;
+    --rust: #8b3a2a;
+    --dust: #8a7d6b;
+    --dust-light: #b5a898;
+    --cream: #faf7f0;
+    --warn-bg: #fff8ed;
+    --warn-border: #d49a42;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: 'Lora', Georgia, serif;
+    font-size: 16px;
+    line-height: 1.7;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  /* Subtle paper texture overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--ink);
+    border-bottom: 2px solid var(--ochre);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+  }
+
+  .nav-logo {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--ochre-light);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--dust-light);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--ochre-light); }
+
+  .nav-links .flag-link {
+    color: var(--rust);
+    border: 1px solid var(--rust);
+    padding: 4px 10px;
+    border-radius: 2px;
+    transition: all 0.2s;
+  }
+  .nav-links .flag-link:hover {
+    background: var(--rust);
+    color: #fff;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    position: relative;
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 6rem 2rem 5rem;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 80% at 50% 50%, #2d4a2d33 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  /* Big decorative character */
+  .hero-deco {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(20rem, 40vw, 45rem);
+    font-weight: 900;
+    color: var(--forest);
+    opacity: 0.15;
+    line-height: 1;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .hero-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ochre);
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .hero-eyebrow::before,
+  .hero-eyebrow::after {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 1px;
+    background: var(--ochre);
+  }
+
+  .hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.8rem, 6vw, 5.5rem);
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    color: var(--cream);
+  }
+
+  .hero-title em {
+    font-style: italic;
+    color: var(--ochre-light);
+  }
+
+  .hero-quote {
+    border-left: 3px solid var(--ochre);
+    padding-left: 1.5rem;
+    margin: 2rem auto;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--parchment-dark);
+    line-height: 1.7;
+    max-width: 600px;
+    text-align: left;
+  }
+
+  .hero-quote cite {
+    display: block;
+    font-style: normal;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--dust-light);
+    margin-top: 0.75rem;
+  }
+
+  .hero-meta {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--dust);
+    letter-spacing: 0.08em;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-meta span { color: var(--ochre-light); }
+
+  /* ── SEARCH BAR ── */
+  .search-section {
+    background: var(--forest);
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 2px solid var(--ochre);
+  }
+
+  .search-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--ochre-light);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .search-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #3d6b3d;
+    padding: 6px 0;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: var(--parchment);
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .search-input::placeholder { color: #4a7a4a; }
+  .search-input:focus { border-bottom-color: var(--ochre); }
+
+  .search-btn {
+    background: var(--ochre);
+    color: var(--ink);
+    border: none;
+    padding: 8px 20px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+  .search-btn:hover { background: var(--ochre-light); }
+
+  /* ── COUNTRY FILTERS ── */
+  .filters {
+    background: var(--parchment-dark);
+    border-bottom: 1px solid #d4c9b0;
+    padding: 0 2rem;
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .filters::-webkit-scrollbar { display: none; }
+
+  .filter-btn {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--dust);
+    padding: 14px 18px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .filter-btn:hover { color: var(--ink); }
+  .filter-btn.active {
+    color: var(--forest);
+    border-bottom-color: var(--forest);
+    font-weight: 500;
+  }
+
+  /* ── MAIN CONTENT ── */
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  /* ── RETREAT CARDS ── */
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--dust);
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--dust-light);
+    opacity: 0.4;
+  }
+
+  .retreat-list { display: flex; flex-direction: column; gap: 1.5px; }
+
+  .retreat-card {
+    background: var(--cream);
+    border: 1px solid #ddd4be;
+    border-left: 3px solid transparent;
+    padding: 1.4rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.18s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .retreat-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #c4853a22, transparent);
+  }
+
+  .retreat-card:hover {
+    border-left-color: var(--ochre);
+    transform: translateX(3px);
+    box-shadow: -3px 0 0 var(--ochre);
+  }
+
+  .retreat-card.recommended {
+    border-left-color: var(--forest-light);
+  }
+
+  .retreat-card.red-flag {
+    border-left-color: var(--rust);
+    background: #fff8f6;
+  }
+
+  .card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+
+  .card-badges { display: flex; gap: 6px; flex-shrink: 0; flex-wrap: wrap; justify-content: flex-end; }
+
+  .badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 2px;
+  }
+
+  .badge-wolf {
+    background: var(--forest);
+    color: #a8d5a8;
+  }
+
+  .badge-flag {
+    background: var(--rust);
+    color: #ffd4cc;
+  }
+
+  .badge-country {
+    background: var(--parchment-dark);
+    color: var(--dust);
+    border: 1px solid #d4c9b0;
+  }
+
+  .badge-tradition {
+    background: transparent;
+    color: var(--ochre);
+    border: 1px solid var(--ochre);
+  }
+
+  .card-location {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--dust);
+    margin-bottom: 0.6rem;
+    text-transform: uppercase;
+  }
+
+  .card-review {
+    font-size: 0.9rem;
+    color: #4a3f30;
+    line-height: 1.65;
+    font-style: italic;
+  }
+
+  .card-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--forest-light);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+  .card-link:hover { border-bottom-color: var(--forest-light); }
+  .card-link::after { content: ' →'; }
+
+  /* ── SIDEBAR ── */
+  .sidebar { display: flex; flex-direction: column; gap: 1.5rem; }
+
+  .sidebar-card {
+    background: var(--cream);
+    border: 1px solid #ddd4be;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .sidebar-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #ddd4be;
+    color: var(--ink);
+  }
+
+  /* Wolf's picks */
+  .picks-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+  .picks-list li {
+    font-size: 0.88rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed #ddd4be;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    color: var(--ink);
+    line-height: 1.4;
+  }
+  .picks-list li::before {
+    content: '✦';
+    color: var(--ochre);
+    font-size: 8px;
+    margin-top: 4px;
+    flex-shrink: 0;
+  }
+  .picks-list li:last-child { border-bottom: none; }
+  .pick-country {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--dust);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    display: block;
+    margin-top: 2px;
+  }
+
+  /* Wolf's note */
+  .wolf-note {
+    font-size: 0.88rem;
+    font-style: italic;
+    color: #4a3f30;
+    line-height: 1.7;
+    position: relative;
+    padding-left: 1rem;
+    border-left: 2px solid var(--ochre);
+  }
+  .wolf-sig {
+    font-style: normal;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--dust);
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+    display: block;
+  }
+
+  /* Caveat box */
+  .caveat-box {
+    background: var(--warn-bg);
+    border: 1px solid var(--warn-border);
+    border-left: 3px solid var(--warn-border);
+    padding: 1rem 1.25rem;
+  }
+
+  .caveat-box p {
+    font-size: 0.85rem;
+    color: #5a3a10;
+    line-height: 1.6;
+  }
+  .caveat-box strong {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--ochre);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--ink);
+    color: var(--dust);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    border-top: 2px solid var(--ochre);
+  }
+
+  .footer-quote {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--dust-light);
+    max-width: 480px;
+    margin: 0 auto 1rem;
+    line-height: 1.7;
+  }
+
+  .footer-meta {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--dust);
+    margin-top: 1rem;
+  }
+
+  .footer-meta a {
+    color: var(--ochre);
+    text-decoration: none;
+  }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-inner > * {
+    animation: fadeUp 0.6s ease both;
+  }
+  .hero-eyebrow { animation-delay: 0.05s; }
+  .hero-title   { animation-delay: 0.15s; }
+  .hero-quote   { animation-delay: 0.25s; }
+  .hero-meta    { animation-delay: 0.35s; }
+
+  .retreat-card {
+    animation: fadeUp 0.4s ease both;
+  }
+  .retreat-card:nth-child(1) { animation-delay: 0.05s; }
+  .retreat-card:nth-child(2) { animation-delay: 0.1s; }
+  .retreat-card:nth-child(3) { animation-delay: 0.15s; }
+  .retreat-card:nth-child(4) { animation-delay: 0.2s; }
+  .retreat-card:nth-child(5) { animation-delay: 0.25s; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .main { grid-template-columns: 1fr; }
+    .hero-deco { display: none; }
+    .hero { padding: 3rem 1.5rem 2.5rem; }
+  }
+
+  @media (max-width: 600px) {
+    nav { padding: 0 1rem; }
+    .nav-links { gap: 1rem; }
+    .search-section { flex-wrap: wrap; padding: 1rem; }
+    .main { padding: 2rem 1rem; }
+    .hero-title { font-size: 2.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Wolf's Guide · Dharma Retreats</a>
+  <ul class="nav-links">
+    <li><a href="#">Browse</a></li>
+    <li><a href="#">Map</a></li>
+    <li><a href="#">Teachings</a></li>
+    <li><a href="#" class="flag-link">⚑ Red Flags</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-deco">ॐ</div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Est. 2017 · Updated 2025</div>
+    <h1 class="hero-title">
+      Wolf's Guide to<br>
+      <em>Dharma Retreats</em><br>
+      & Teachings
+    </h1>
+    <blockquote class="hero-quote">
+      As a fletcher makes straight their arrow, a wise person directs their unsteady thought,
+      which is difficult to guard, difficult to hold back.
+      <cite>— Buddha, The Dhammapada</cite>
+    </blockquote>
+    <div class="hero-meta">
+      <div>Retreats listed: <span>110+</span></div>
+      <div>Countries covered: <span>8</span></div>
+      <div>Years of field notes: <span>8</span></div>
+      <div>Red-flagged places: <span>honest</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SEARCH -->
+<div class="search-section">
+  <span class="search-label">Find a retreat</span>
+  <input class="search-input" type="text" placeholder="Search by name, city, or tradition…">
+  <button class="search-btn">Search</button>
+</div>
+
+<!-- COUNTRY FILTERS -->
+<div class="filters">
+  <button class="filter-btn active">All</button>
+  <button class="filter-btn">India</button>
+  <button class="filter-btn">Nepal</button>
+  <button class="filter-btn">Thailand</button>
+  <button class="filter-btn">Sri Lanka</button>
+  <button class="filter-btn">Malaysia</button>
+  <button class="filter-btn">Burma</button>
+  <button class="filter-btn">China</button>
+  <button class="filter-btn">Other</button>
+</div>
+
+<!-- MAIN -->
+<main class="main">
+
+  <div>
+    <div class="section-label">Wolf's top picks & full listing</div>
+    <div class="retreat-list">
+
+      <!-- Bodhi Zendo -->
+      <div class="retreat-card recommended">
+        <div class="card-top">
+          <div class="card-name">Bodhi Zendo</div>
+          <div class="card-badges">
+            <span class="badge badge-wolf">Wolf recommends</span>
+            <span class="badge badge-country">India</span>
+            <span class="badge badge-tradition">Zen</span>
+          </div>
+        </div>
+        <div class="card-location">Perumalmalai · Outside Kodaikanal · Tamil Nadu</div>
+        <p class="card-review">"Highly reviewed Zen retreat center. One of the finest places for serious practice in South India. The setting alone — misty hills above Kodaikanal — makes it worth the journey."</p>
+        <a href="http://www.bodhisangha.net" class="card-link">bodhisangha.net</a>
+      </div>
+
+      <!-- Tushita -->
+      <div class="retreat-card recommended">
+        <div class="card-top">
+          <div class="card-name">Tushita Meditation Centre</div>
+          <div class="card-badges">
+            <span class="badge badge-wolf">Wolf recommends</span>
+            <span class="badge badge-country">India</span>
+            <span class="badge badge-tradition">Tibetan</span>
+          </div>
+        </div>
+        <div class="card-location">Dharamsala · Himachal Pradesh</div>
+        <p class="card-review">"Well regarded Introduction to Buddhism courses and Intermediate Buddhism courses. Popular place. One of the better organised centers in the Dharamsala area."</p>
+        <a href="http://tushita.info" class="card-link">tushita.info</a>
+      </div>
+
+      <!-- Panditarama Lumbini -->
+      <div class="retreat-card recommended">
+        <div class="card-top">
+          <div class="card-name">Panditarama Lumbini</div>
+          <div class="card-badges">
+            <span class="badge badge-wolf">Wolf recommends</span>
+            <span class="badge badge-country">Nepal</span>
+            <span class="badge badge-tradition">Mahasi / Vipassana</span>
+          </div>
+        </div>
+        <div class="card-location">Lumbini · Nepal</div>
+        <p class="card-review">"Excellent Mahasi style retreat center for serious meditators. If you want to do serious Vipassana in Nepal, this is the place. Not for dabblers."</p>
+        <a href="http://www.panditarama-lumbini.info" class="card-link">panditarama-lumbini.info</a>
+      </div>
+
+      <!-- Thosamling -->
+      <div class="retreat-card recommended">
+        <div class="card-top">
+          <div class="card-name">Thosamling Nunnery</div>
+          <div class="card-badges">
+            <span class="badge badge-wolf">Wolf recommends</span>
+            <span class="badge badge-country">India</span>
+            <span class="badge badge-tradition">Tibetan</span>
+          </div>
+        </div>
+        <div class="card-location">Near Dharamsala · Himachal Pradesh</div>
+        <p class="card-review">"Shamatha Meditation weekends, guest teachers, and residential private retreats. A quieter, more intimate alternative to Tushita. Excellent for those who find larger centers overwhelming."</p>
+        <a href="http://thosamling.com" class="card-link">thosamling.com</a>
+      </div>
+
+      <!-- Doi Suthep -->
+      <div class="retreat-card">
+        <div class="card-top">
+          <div class="card-name">Doi Suthep International Meditation Center</div>
+          <div class="card-badges">
+            <span class="badge badge-country">Thailand</span>
+            <span class="badge badge-tradition">Theravada</span>
+          </div>
+        </div>
+        <div class="card-location">Doi Suthep · Chiang Mai</div>
+        <p class="card-review">"Good for beginners. The cooler mountain air above Chiang Mai makes this a more pleasant environment than the lowland centers. A solid first retreat for newcomers to Thailand."</p>
+        <a href="https://www.fivethousandyears.org" class="card-link">fivethousandyears.org</a>
+      </div>
+
+      <!-- RED FLAG -->
+      <div class="retreat-card red-flag">
+        <div class="card-top">
+          <div class="card-name">Bhagavan's Arunachala Ashram</div>
+          <div class="card-badges">
+            <span class="badge badge-flag">⚑ Red flagged</span>
+            <span class="badge badge-country">India</span>
+          </div>
+        </div>
+        <div class="card-location">Wayanad · Kerala</div>
+        <p class="card-review">"Cannot recommend. Wolf has documented serious concerns about cult-like dynamics, financial opacity, and a teacher who claims to be 'beyond God.' Trust your bullshit radar. Read the full review before considering."</p>
+        <a href="#" class="card-link" style="color: var(--rust)">Read full red flag review</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <!-- Wolf's picks -->
+    <div class="sidebar-card">
+      <h3 class="sidebar-title">Wolf's top picks</h3>
+      <ul class="picks-list">
+        <li>
+          Doi Suthep — cooler retreat
+          <span class="pick-country">Thailand</span>
+        </li>
+        <li>
+          Wat Pa Tam Wa
+          <span class="pick-country">Thailand</span>
+        </li>
+        <li>
+          Panditarama Lumbini — serious meditators
+          <span class="pick-country">Nepal</span>
+        </li>
+        <li>
+          Tushita — Buddhism courses
+          <span class="pick-country">Himachal Pradesh, India</span>
+        </li>
+        <li>
+          Thosamling — intimate, quiet
+          <span class="pick-country">Dharamsala, India</span>
+        </li>
+        <li>
+          Deer Park Bir — visiting teachers
+          <span class="pick-country">Bir, India</span>
+        </li>
+        <li>
+          Bodhi Zendo — Zen in the hills
+          <span class="pick-country">Tamil Nadu, India</span>
+        </li>
+        <li>
+          Auroville — alternative community
+          <span class="pick-country">Tamil Nadu, India</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Wolf's note -->
+    <div class="sidebar-card">
+      <h3 class="sidebar-title">A note from Wolf</h3>
+      <p class="wolf-note">
+        "I've written a lot here, but my experience may not be your experience. Everything does
+        change — teachers come and go, cooks are replaced. A center that was friendly with top-notch
+        instruction can become blase. Remember YMMV: Your Mileage May Vary."
+        <span class="wolf-sig">— Wolf, aware.wolf.ko@gmail.com</span>
+      </p>
+    </div>
+
+    <!-- Caveat -->
+    <div class="caveat-box">
+      <strong>⚑ Caveat Emptor</strong>
+      <p>Do your own due diligence. Google teachers and centers. Check current travel advisories.
+      This guide reflects one person's experience — honest, but never the final word.</p>
+    </div>
+
+  </aside>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <p class="footer-quote">
+    "Those who awaken never rest in one place. Like swans, they rise and leave the lake."
+  </p>
+  <div class="footer-meta">
+    Started 2017 · Updated 2025 · Creative Commons ·
+    <a href="mailto:aware.wolf.ko@gmail.com">aware.wolf.ko@gmail.com</a>
+  </div>
+</footer>
+
+<script>
+  // Filter tabs
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  // Search input — live filter (demo)
+  const searchInput = document.querySelector('.search-input');
+  const cards = document.querySelectorAll('.retreat-card');
+
+  searchInput.addEventListener('input', () => {
+    const q = searchInput.value.toLowerCase();
+    cards.forEach(card => {
+      const text = card.textContent.toLowerCase();
+      card.style.display = text.includes(q) ? '' : 'none';
+    });
+  });
+</script>
+
+</body>
+</html>

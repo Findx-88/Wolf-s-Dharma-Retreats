@@ -1,0 +1,92 @@
+[
+  {
+    "id": "bodhi-zendo",
+    "name": "Bodhi Zendo",
+    "location": {
+      "city": "Perumalmalai (near Kodaikanal)",
+      "country": "India"
+    },
+    "type": ["Zen", "Self-retreat"],
+    "tradition": "Zen (Jesuit)",
+    "trustTier": "top-pick",
+    "beginnerFriendly": true,
+    "wolfSays": "If there's a gem among my list of retreat centers, I'd say it would be Bodhizendo. Fantastic Zen garden and a wonderful library.",
+    "highlights": [
+      "Beautiful zen garden",
+      "Run by Jesuits but fully ecumenical",
+      "Excellent library",
+      "Cooler climate in the mountains"
+    ]
+  },
+  {
+    "id": "panditarama-lumbini",
+    "name": "Panditarama Lumbini",
+    "location": {
+      "city": "Lumbini",
+      "country": "Nepal"
+    },
+    "type": ["Vipassana"],
+    "tradition": "Mahasi Vipassana",
+    "trustTier": "top-pick",
+    "beginnerFriendly": false,
+    "wolfSays": "One of the best places to do a serious retreat. If you go, make the most of it.",
+    "highlights": [
+      "Strict Mahasi style vipassana",
+      "Excellent conditions for deep practice",
+      "Birthplace of the Buddha"
+    ]
+  },
+  {
+    "id": "tushita",
+    "name": "Tushita Meditation Centre",
+    "location": {
+      "city": "Dharamsala (Dharamkot)",
+      "country": "India"
+    },
+    "type": ["Tibetan", "Course"],
+    "tradition": "FPMT / Gelugpa",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "They pack people in like sardines during peak season, but the Intro to Buddhism course is excellent.",
+    "highlights": [
+      "Great introduction to Tibetan Buddhism",
+      "Beautiful pine forest setting",
+      "Often features famous guest teachers"
+    ]
+  },
+  {
+    "id": "wat-pa-tam-wua",
+    "name": "Wat Pa Tam Wua",
+    "location": {
+      "city": "Mae Hong Son",
+      "country": "Thailand"
+    },
+    "type": ["Vipassana", "Relaxed"],
+    "tradition": "Thai Forest",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "It's beautiful, very modern and well-kept. You can drop in without a booking. I think it's fantastic for casuals.",
+    "highlights": [
+      "Extremely beautiful forest sanctuary",
+      "Very relaxed schedule compared to other centers",
+      "Drop-in friendly, no booking required"
+    ]
+  },
+  {
+    "id": "wayanad-ashram",
+    "name": "Wayanad Bhagavan Arunachala Ashram",
+    "location": {
+      "city": "Wayanad",
+      "country": "India"
+    },
+    "type": ["Advaita", "Guru"],
+    "tradition": "Neo-Advaita",
+    "trustTier": "red-flag",
+    "beginnerFriendly": false,
+    "wolfSays": "The Ashram is a bit culty and demanding. He drives shamelessly a BMW X7, which costs more than 100,000 euros. Buyer beware.",
+    "highlights": [
+      "Very demanding of devotees",
+      "Secretive nature and closed-off teachings"
+    ]
+  }
+]

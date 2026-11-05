@@ -1,0 +1,1079 @@
+[
+  {
+    "id": "bodhi-zendo",
+    "name": "Bodhi Zendo",
+    "location": {
+      "city": "Perumalmalai (near Kodaikanal)",
+      "country": "India",
+      "lat": 10.2678,
+      "lng": 77.5502
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/BodhiZendo",
+    "type": ["Zen", "Self-retreat"],
+    "tradition": "Zen (Jesuit)",
+    "trustTier": "top-pick",
+    "beginnerFriendly": true,
+    "wolfSays": "If there's a gem among my list of retreat centers, I'd say it would be Bodhizendo. Fantastic Zen garden and a wonderful library.",
+    "highlights": [
+      "Beautiful zen garden",
+      "Run by Jesuits but fully ecumenical",
+      "Excellent library",
+      "Cooler climate in the mountains"
+    ]
+  },
+  {
+    "id": "panditarama-lumbini",
+    "name": "Panditarama Lumbini",
+    "location": {
+      "city": "Lumbini",
+      "country": "Nepal",
+      "lat": 27.4815,
+      "lng": 83.2755
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/PanditaramaLumbini",
+    "type": ["Vipassana"],
+    "tradition": "Mahasi Vipassana",
+    "trustTier": "top-pick",
+    "beginnerFriendly": false,
+    "wolfSays": "One of the best places to do a serious retreat. If you go, make the most of it.",
+    "highlights": [
+      "Strict Mahasi style vipassana",
+      "Excellent conditions for deep practice",
+      "Birthplace of the Buddha"
+    ]
+  },
+  {
+    "id": "tushita",
+    "name": "Tushita Meditation Centre",
+    "location": {
+      "city": "Dharamsala (Dharamkot)",
+      "country": "India",
+      "lat": 32.2530,
+      "lng": 76.3312
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/Tushita",
+    "type": ["Tibetan", "Course"],
+    "tradition": "FPMT / Gelugpa",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "They pack people in like sardines during peak season, but the Intro to Buddhism course is excellent.",
+    "highlights": [
+      "Great introduction to Tibetan Buddhism",
+      "Beautiful pine forest setting",
+      "Often features famous guest teachers"
+    ]
+  },
+  {
+    "id": "wat-pa-tam-wua",
+    "name": "Wat Pa Tam Wua",
+    "location": {
+      "city": "Mae Hong Son",
+      "country": "Thailand",
+      "lat": 19.5134,
+      "lng": 98.0538
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/WatPaTamWua",
+    "type": ["Vipassana", "Relaxed"],
+    "tradition": "Thai Forest",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "It's beautiful, very modern and well-kept. You can drop in without a booking. I think it's fantastic for casuals.",
+    "highlights": [
+      "Extremely beautiful forest sanctuary",
+      "Very relaxed schedule compared to other centers",
+      "Drop-in friendly, no booking required"
+    ]
+  },
+  {
+    "id": "wayanad-ashram",
+    "name": "Wayanad Bhagavan Arunachala Ashram",
+    "location": {
+      "city": "Wayanad",
+      "country": "India",
+      "lat": 11.6095,
+      "lng": 76.0828
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/WayanadAshram",
+    "type": ["Advaita", "Guru"],
+    "tradition": "Neo-Advaita",
+    "trustTier": "red-flag",
+    "beginnerFriendly": false,
+    "wolfSays": "The Ashram is a bit culty and demanding. He drives shamelessly a BMW X7, which costs more than 100,000 euros. Buyer beware.",
+    "highlights": [
+      "Very demanding of devotees",
+      "Secretive nature and closed-off teachings"
+    ]
+  },
+  {
+    "id": "thosamling",
+    "name": "Thosamling Nunnery",
+    "location": {
+      "city": "Dharamsala (Sidhbari)",
+      "country": "India",
+      "lat": 32.2040,
+      "lng": 76.3450
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/Thosamling",
+    "type": ["Tibetan", "Self-retreat"],
+    "tradition": "Tibetan (Non-sectarian)",
+    "trustTier": "top-pick",
+    "beginnerFriendly": true,
+    "wolfSays": "Thosamling is a wonderful place. I recommend it for a course and a private retreat. Beautiful, friendly, and great food.",
+    "highlights": [
+      "Beautiful nunnery welcoming all genders",
+      "Excellent conditions for self-retreat",
+      "Friendly atmosphere and great library"
+    ]
+  },
+  {
+    "id": "deer-park-bir",
+    "name": "Deer Park Institute",
+    "location": {
+      "city": "Bir",
+      "country": "India",
+      "lat": 32.0463,
+      "lng": 76.7161
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/DeerParkBir",
+    "type": ["Tibetan", "Course"],
+    "tradition": "Tibetan (Dzongsar Khyentse Rinpoche)",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Deer Park is a relaxed place for self-retreat. It's more like a hotel than a strict formal center.",
+    "highlights": [
+      "Rich variety of courses",
+      "Beautiful traditional architecture",
+      "Paragliding capital nearby"
+    ]
+  },
+  {
+    "id": "root-institute",
+    "name": "Root Institute",
+    "location": {
+      "city": "Bodhgaya",
+      "country": "India",
+      "lat": 24.6961,
+      "lng": 84.9912
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/RootInstitute",
+    "type": ["Tibetan", "Course"],
+    "tradition": "FPMT / Gelugpa",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Buddhism events and courses in season. A good place to start if you are in Bodhgaya.",
+    "highlights": [
+      "Affiliated with FPMT",
+      "Located in Bodhgaya",
+      "Compassionate atmosphere"
+    ]
+  },
+  {
+    "id": "kopan-monastery",
+    "name": "Kopan Monastery",
+    "location": {
+      "city": "Kathmandu",
+      "country": "Nepal",
+      "lat": 27.7420,
+      "lng": 85.3644
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/Kopan",
+    "type": ["Tibetan", "Monastery"],
+    "tradition": "FPMT / Gelugpa",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Famous for its November course. Sign up early.",
+    "highlights": [
+      "Views over Kathmandu valley",
+      "Tibetan Buddhist studies",
+      "Iconic monastery"
+    ]
+  },
+  {
+    "id": "wat-suan-mokh",
+    "name": "Wat Suan Mokkh",
+    "location": {
+      "city": "Chaiya",
+      "country": "Thailand",
+      "lat": 9.3562,
+      "lng": 99.1712
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/SuanMokkh",
+    "type": ["Vipassana", "Monastery"],
+    "tradition": "Thai Forest",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Traditional 10-day courses starting on the 1st.",
+    "highlights": [
+      "Historic forest monastery",
+      "Natural hot springs",
+      "Focus on nature"
+    ]
+  },
+  {
+    "id": "shwe-oo-min",
+    "name": "Shwe Oo Min (U Tejaniya)",
+    "location": {
+      "city": "Yangon",
+      "country": "Burma",
+      "lat": 17.0122,
+      "lng": 96.1212
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/ShweOoMin",
+    "type": ["Vipassana", "Relaxed"],
+    "tradition": "Mahasi (Tejaniya style)",
+    "trustTier": "top-pick",
+    "beginnerFriendly": true,
+    "wolfSays": "U Tejaniya advocates a 'Relax and Be Aware' approach.",
+    "highlights": [
+      "Awareness in daily life",
+      "Relaxed Burmese center",
+      "Long-term practice"
+    ]
+  },
+  {
+    "id": "ramana-ashram",
+    "name": "Ramana Ashram",
+    "location": {
+      "city": "Tiruvannamalai",
+      "country": "India",
+      "lat": 12.2248,
+      "lng": 79.0612
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/RamanaAshram",
+    "type": ["Advaita", "Ashram"],
+    "tradition": "Advaita Vedanta",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "At the foot of Arunachala. A power spot for self-inquiry.",
+    "highlights": [
+      "Self-inquiry focus",
+      "Holy mountain Arunachala",
+      "Peaceful vibe"
+    ]
+  },
+  {
+    "id": "wat-pha-nanachat",
+    "name": "Wat Pha Nanachat",
+    "location": {
+      "city": "Ubon Ratchathani",
+      "country": "Thailand",
+      "lat": 15.1633,
+      "lng": 104.7212
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/WatPhaNanachat",
+    "type": ["Vipassana", "Monastery"],
+    "tradition": "Thai Forest (Ajahn Chah)",
+    "trustTier": "recommended",
+    "beginnerFriendly": false,
+    "wolfSays": "The International Forest Monastery. Strict, traditional, and very rewarding for serious practitioners.",
+    "highlights": [
+      "English-speaking community",
+      "Strict monastic discipline",
+      "Beautiful forest setting"
+    ]
+  },
+  {
+    "id": "nilambe",
+    "name": "Nilambe Meditation Centre",
+    "location": {
+      "city": "Kandy",
+      "country": "Sri Lanka",
+      "lat": 7.1822,
+      "lng": 80.6012
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/Nilambe",
+    "type": ["Vipassana", "Off-grid"],
+    "tradition": "Non-sectarian",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Beautiful and quiet, deep in the tea hills.",
+    "highlights": [
+      "Sustainable living",
+      "No electricity",
+      "Hill country views"
+    ]
+  },
+  {
+    "id": "goenka-vipassana",
+    "name": "Goenka Vipassana Centers",
+    "location": {
+      "city": "Worldwide",
+      "country": "Global",
+      "lat": 19.3455,
+      "lng": 72.8222
+    },
+    "googleMapsUrl": "https://www.dhamma.org/en/maps",
+    "type": ["Vipassana", "Intensive"],
+    "tradition": "U Ba Khin / Goenka",
+    "trustTier": "red-flag",
+    "beginnerFriendly": false,
+    "wolfSays": "I'm wary of too much continuous sitting. 90% of people never return.",
+    "highlights": [
+      "Donation-based",
+      "Rigid schedule",
+      "No walking meditation"
+    ]
+  },
+  {
+    "id": "dongyu-gatsal-ling",
+    "name": "Dongyu Gatsal Ling",
+    "location": {
+      "city": "Padhiarkar (near Palampur)",
+      "country": "India",
+      "lat": 32.1122,
+      "lng": 76.5312
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/DongyuGatsalLing",
+    "type": ["Tibetan", "Nunnery"],
+    "tradition": "Tibetan (Drukpa Kagyu)",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Founded by Tenzin Palmo. A beautiful nunnery for women. They have a great library and a wonderful atmosphere.",
+    "highlights": [
+      "Founded by Jetsunma Tenzin Palmo",
+      "Focus on female practitioners",
+      "Beautiful architecture"
+    ]
+  },
+  {
+    "id": "osho-resort",
+    "name": "Osho Meditation Resort",
+    "location": {
+      "city": "Pune",
+      "country": "India",
+      "lat": 18.5362,
+      "lng": 73.8812
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/OshoResort",
+    "type": ["Dynamic", "Resort"],
+    "tradition": "Osho",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "It's more like a spiritual spa than a strict retreat. Very expensive, very dynamic. Good if you like dancing and high-end amenities.",
+    "highlights": [
+      "Dynamic meditation techniques",
+      "Luxury facilities",
+      "International community"
+    ]
+  },
+  {
+    "id": "radha-nicholson",
+    "name": "Radha Nicholson Bodhgaya Retreat",
+    "location": { "city": "Bodhgaya", "country": "India", "lat": 24.6951, "lng": 84.9912 },
+    "googleMapsUrl": "https://radhanicholson.com/",
+    "type": ["Vipassana", "Course"],
+    "tradition": "Insight Meditation",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Radha Nicholson holds a yearly retreat in Bodhgaya. Recommended. People also meditate by the Bodhi Tree.",
+    "highlights": ["Yearly 7-day retreat", "Located in Bodhgaya", "Experienced teacher"]
+  },
+  {
+    "id": "hi-yoga-centre",
+    "name": "Iyengar Yoga Himalayan Center",
+    "location": { "city": "Dharamkot", "country": "India", "lat": 32.2430, "lng": 76.3212 },
+    "googleMapsUrl": "https://www.hiyogacentre.com/",
+    "type": ["Yoga"],
+    "tradition": "Iyengar Yoga",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Solid Iyengar yoga center in the mountains above Dharamsala.",
+    "highlights": ["Strict Iyengar method", "Beautiful mountain views", "Excellent teachers"]
+  },
+  {
+    "id": "universal-yoga",
+    "name": "Universal Yoga",
+    "location": { "city": "Dharamkot", "country": "India", "lat": 32.2440, "lng": 76.3222 },
+    "googleMapsUrl": "http://vijaypoweryoga.site/",
+    "type": ["Yoga"],
+    "tradition": "Vijay Power Yoga",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Vijay is a well-known teacher in the area. Good power yoga.",
+    "highlights": ["Dynamic power yoga", "Popular with travelers", "Dharamkot location"]
+  },
+  {
+    "id": "buddha-pada",
+    "name": "Buddha Pada",
+    "location": { "city": "Kalimpong", "country": "India", "lat": 27.0594, "lng": 88.4695 },
+    "googleMapsUrl": "https://buddhapada.in/",
+    "type": ["Tibetan", "Course"],
+    "tradition": "Tibetan (Dzongsar Khyentse Rinpoche)",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Sister institute for Deer Park Bir. New and well-regarded.",
+    "highlights": ["Traditional Himalayan setting", "Affiliated with Deer Park", "Beautiful new center"]
+  },
+  {
+    "id": "dharmalaya",
+    "name": "Dharmalaya Institute",
+    "location": { "city": "Bir", "country": "India", "lat": 32.0463, "lng": 76.7161 },
+    "googleMapsUrl": "http://dharmalaya.in/",
+    "type": ["Eco", "Course"],
+    "tradition": "Sustainable Living",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Courses and Eco-type retreats. Good for those interested in sustainability.",
+    "highlights": ["Earth building workshops", "Compassionate living", "Bir hills location"]
+  },
+  {
+    "id": "sherab-ling",
+    "name": "Sherab Ling Monastery",
+    "location": { "city": "Bir", "country": "India", "lat": 32.0363, "lng": 76.7061 },
+    "googleMapsUrl": "https://www.palpung.org/",
+    "type": ["Tibetan", "Monastery"],
+    "tradition": "Karma Kagyu",
+    "trustTier": "recommended",
+    "beginnerFriendly": false,
+    "wolfSays": "Independent retreat and occasional teachings. A massive and impressive monastery.",
+    "highlights": ["Home of Tai Situ Rinpoche", "Large monastic community", "Beautiful chanting"]
+  },
+  {
+    "id": "sattal-ashram",
+    "name": "Sattal Christian Ashram",
+    "location": { "city": "Sattal", "country": "India", "lat": 29.3512, "lng": 79.5212 },
+    "googleMapsUrl": "http://sattalchristianashram.org/",
+    "type": ["Christian", "Ashram"],
+    "tradition": "E. Stanley Jones",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "A very unique and peaceful Christian ashram in the Kumaon hills.",
+    "highlights": ["Interfaith atmosphere", "Beautiful lakeside setting", "Historic ashram"]
+  },
+  {
+    "id": "haidakhan-babaji",
+    "name": "Haidakhan Babaji Ashram",
+    "location": { "city": "Haldwani", "country": "India", "lat": 29.2122, "lng": 79.5112 },
+    "googleMapsUrl": "http://www.haidakhandhibabaji.com/",
+    "type": ["Hindu", "Ashram"],
+    "tradition": "Haidakhan Babaji",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Excellent reviews. Very traditional and devotional.",
+    "highlights": ["Karma yoga focus", "Beautiful river setting", "Devotional chanting"]
+  },
+  {
+    "id": "auroville",
+    "name": "Auroville",
+    "location": { "city": "Pondicherry", "country": "India", "lat": 12.0068, "lng": 79.8105 },
+    "googleMapsUrl": "https://www.auroville.org/",
+    "type": ["Universal", "Community"],
+    "tradition": "Sri Aurobindo / The Mother",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Alternative and creative type community. Worth visiting for the Matrimandir.",
+    "highlights": ["Experimental township", "Matrimandir meditation", "International community"]
+  },
+  {
+    "id": "ibmc-kathmandu",
+    "name": "IBMC Kathmandu",
+    "location": { "city": "Kathmandu", "country": "Nepal", "lat": 27.7122, "lng": 85.3212 },
+    "googleMapsUrl": "http://www.ibmc.org.np/",
+    "type": ["Vipassana", "Monastery"],
+    "tradition": "Mahasi Vipassana",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Affiliated with Panditarama. A good urban center for Mahasi practice.",
+    "highlights": ["Urban oasis", "Strict Mahasi method", "Accessible in the city"]
+  },
+  {
+    "id": "doi-suthep",
+    "name": "Doi Suthep International Meditation Center",
+    "location": { "city": "Chiang Mai", "country": "Thailand", "lat": 18.8048, "lng": 98.9212 },
+    "googleMapsUrl": "https://www.fivethousandyears.org/",
+    "type": ["Vipassana", "Monastery"],
+    "tradition": "Ajahn Tong Style",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Good for beginners. Cooler climate on the mountain.",
+    "highlights": ["Mountain top temple", "English instruction", "Systematic courses"]
+  },
+  {
+    "id": "pa-pae",
+    "name": "Pa Pae Center",
+    "location": { "city": "Chiang Mai", "country": "Thailand", "lat": 19.1212, "lng": 98.7112 },
+    "googleMapsUrl": "http://www.papaemeditation.org/",
+    "type": ["Vipassana", "Course"],
+    "tradition": "Dhammakaya / Generic",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Short 4-day meditation courses. Good for beginners.",
+    "highlights": ["Easy intro courses", "Beautiful jungle setting", "Westerner friendly"]
+  },
+  {
+    "id": "mbmc-penang",
+    "name": "MBMC Penang",
+    "location": { "city": "Penang", "country": "Malaysia", "lat": 5.4122, "lng": 100.3112 },
+    "googleMapsUrl": "https://www.mbmcmalaysia.org/",
+    "type": ["Vipassana", "Monastery"],
+    "tradition": "Mahasi Vipassana",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Mahasi-style center in the heart of Penang. Good food and facilities.",
+    "highlights": ["Historical center", "Great urban location", "Experienced Sayadaws"]
+  },
+  {
+    "id": "mahasi-center",
+    "name": "Mahasi Center Yangon",
+    "location": { "city": "Yangon", "country": "Burma", "lat": 16.8122, "lng": 96.1612 },
+    "googleMapsUrl": "https://www.saddhamma.org/",
+    "type": ["Vipassana", "Monastery"],
+    "tradition": "Mahasi Vipassana",
+    "trustTier": "top-pick",
+    "beginnerFriendly": false,
+    "wolfSays": "The source of the Mahasi method. Intensive 60-day winter retreats.",
+    "highlights": ["Birthplace of modern vipassana", "Massive monastic complex", "Deeply intensive"]
+  },
+  {
+    "id": "phool-chatti",
+    "name": "Phool Chatti Yoga Ashram",
+    "location": { "city": "Rishikesh", "country": "India", "lat": 30.1312, "lng": 78.3312 },
+    "googleMapsUrl": "https://www.phoolchattiyoga.com/",
+    "type": ["Yoga", "Ashram"],
+    "tradition": "Classical Yoga",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Beautiful location by the Ganges. Famous for its 7-day yoga retreats.",
+    "highlights": ["Yoga by the river", "Ganges beach", "Traditional ashram life"]
+  },
+  {
+    "id": "anand-prakash",
+    "name": "Anand Prakash Yoga Ashram",
+    "location": { "city": "Rishikesh", "country": "India", "lat": 30.1212, "lng": 78.3212 },
+    "googleMapsUrl": "https://anandprakashyogaashram.com/",
+    "type": ["Yoga", "Ashram"],
+    "tradition": "Akhanda Yoga",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Yogi Vishvketu's ashram. Very popular and well-organized.",
+    "highlights": ["Akhanda yoga style", "Lively community", "Great organic food"]
+  },
+  {
+    "id": "parmarth-niketan",
+    "name": "Parmarth Niketan",
+    "location": { "city": "Rishikesh", "country": "India", "lat": 30.1188, "lng": 78.3112 },
+    "googleMapsUrl": "https://www.parmarth.org/",
+    "type": ["Yoga", "Ashram"],
+    "tradition": "Classical Yoga",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Huge ashram. Famous for the daily evening Ganga Aarti.",
+    "highlights": ["Evening fire ceremony", "Massive riverfront", "Wide variety of courses"]
+  },
+  {
+    "id": "ims-massachusetts",
+    "name": "Insight Meditation Society (IMS)",
+    "location": { "city": "Barre, MA", "country": "Global", "lat": 42.4235, "lng": -72.1122 },
+    "googleMapsUrl": "https://www.dharma.org/",
+    "type": ["Vipassana", "Course"],
+    "tradition": "Insight Meditation",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "The center in Massachusetts. Base rate minimum is $40 a day. I find it expensive compared to Asia.",
+    "highlights": ["Founded by Goldstein & Kornfield", "Excellent facilities", "Renowned teachers"]
+  },
+  {
+    "id": "gaia-house",
+    "name": "Gaia House",
+    "location": { "city": "Devon", "country": "Global", "lat": 50.4812, "lng": -3.6122 },
+    "googleMapsUrl": "https://gaiahouse.co.uk/",
+    "type": ["Vipassana", "Course"],
+    "tradition": "Insight Meditation",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Devon, England. Reasonable long-term rates. A top choice in the West.",
+    "highlights": ["Rural English setting", "Silent retreat center", "International community"]
+  },
+  {
+    "id": "amaravati-monastery",
+    "name": "Amaravati Monastery",
+    "location": { "city": "Hertfordshire", "country": "Global", "lat": 51.7912, "lng": -0.5212 },
+    "googleMapsUrl": "https://www.amaravati.org/",
+    "type": ["Vipassana", "Monastery"],
+    "tradition": "Thai Forest (Ajahn Sumedho)",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Home of Ajahn Amaro. Regular donation-based retreats. Very traditional and peaceful.",
+    "highlights": ["Thai Forest tradition in UK", "Donation-based", "Stunning architecture"]
+  },
+  {
+    "id": "sbs-malaysia",
+    "name": "Sasanarakkha Buddhist Sanctuary (SBS)",
+    "location": { "city": "Taiping", "country": "Malaysia", "lat": 4.8512, "lng": 100.7412 },
+    "googleMapsUrl": "https://sasanarakkha.org/",
+    "type": ["Vipassana", "Monastery"],
+    "tradition": "Theravada",
+    "trustTier": "recommended",
+    "beginnerFriendly": false,
+    "wolfSays": "Taiping, Malaysia. A secluded sanctuary for serious practitioners and monks.",
+    "highlights": ["Beautiful jungle sanctuary", "Focus on Sutta study", "Strict monastic environment"]
+  },
+  {
+    "id": "lawudo-gompa",
+    "name": "Lawudo Gompa",
+    "location": { "city": "Khumbu", "country": "Nepal", "lat": 27.8112, "lng": 86.7112 },
+    "googleMapsUrl": "http://www.lawudo.com/",
+    "type": ["Tibetan", "Off-grid"],
+    "tradition": "FPMT / Gelugpa",
+    "trustTier": "recommended",
+    "beginnerFriendly": false,
+    "wolfSays": "On the Everest Base Camp trek. Perfect for self-retreats in the high Himalayas. Very remote.",
+    "highlights": ["13,000 ft altitude", "Everest region", "Deeply isolated for retreat"]
+  },
+  {
+    "id": "china-datong",
+    "name": "Datong Xingguo Chan Temple",
+    "location": { "city": "Tangshan", "country": "China", "lat": 39.6312, "lng": 118.1712 },
+    "googleMapsUrl": "https://www.woodenfish.org/",
+    "type": ["Zen", "Course"],
+    "tradition": "Chan Buddhism",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Yearly one-month courses in Tangshan. A rare opportunity for westerners to study in a mainland Chinese temple.",
+    "highlights": ["Mainland China location", "Traditional Chan architecture", "English-language courses"]
+  },
+  {
+    "id": "india-sat-darshan",
+    "name": "Sat Darshan",
+    "location": { "city": "Kottathara", "country": "India", "lat": 11.5833, "lng": 76.6333 },
+    "googleMapsUrl": "https://satdarshan.org",
+    "type": ["Zen", "Retreat"],
+    "tradition": "Zen",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Relaxed schedule and modeled after Bodhi Zendo. Great reviews.",
+    "highlights": ["Quiet location", "Zen focus", "Modern approach"]
+  },
+  {
+    "id": "india-pyramid-valley",
+    "name": "Pyramid Valley",
+    "location": { "city": "Bangalore", "country": "India", "lat": 12.7483, "lng": 77.4872 },
+    "googleMapsUrl": "https://pyramidvalley.org/",
+    "type": ["Meditation", "Resort"],
+    "tradition": "New Age",
+    "trustTier": "neutral",
+    "beginnerFriendly": true,
+    "wolfSays": "Large-scale meditation center with a giant pyramid. Good for those looking for a resort-like atmosphere.",
+    "highlights": ["Giant pyramid hall", "Lush gardens", "Vast facilities"]
+  },
+  {
+    "id": "india-shantivanam",
+    "name": "Shantivanam Christian Ashram",
+    "location": { "city": "Trichy", "country": "India", "lat": 10.9234, "lng": 78.4312 },
+    "googleMapsUrl": "http://www.bedegriffiths.com/",
+    "type": ["Ashram", "Interfaith"],
+    "tradition": "Christian/Hindu",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "A beautiful interfaith center. Christian mysticism meets Indian ashram life.",
+    "highlights": ["Bede Griffiths legacy", "Interfaith dialogue", "Quiet river setting"]
+  },
+  {
+    "id": "malaysia-vivekavana",
+    "name": "Vivekavana",
+    "location": { "city": "Bukit Mertajam", "country": "Malaysia", "lat": 5.3644, "lng": 100.4611 },
+    "googleMapsUrl": "http://vivekavana.com/",
+    "type": ["Vipassana", "Retreat"],
+    "tradition": "Theravada",
+    "trustTier": "recommended",
+    "beginnerFriendly": false,
+    "wolfSays": "Independent retreat place in Penang. Good for focused practice.",
+    "highlights": ["Quiet hills", "Independent", "Penang accessible"]
+  },
+  {
+    "id": "malaysia-bodhi-heart",
+    "name": "Bodhi Heart",
+    "location": { "city": "Penang", "country": "Malaysia", "lat": 5.4219, "lng": 100.2803 },
+    "googleMapsUrl": "http://www.bodhihearts.net/",
+    "type": ["Vipassana", "Retreat"],
+    "tradition": "Theravada",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Another independent place on Penang island. Very welcoming to westerners.",
+    "highlights": ["Penang location", "Friendly atmosphere", "Short retreats"]
+  },
+  {
+    "id": "india-kurisumala",
+    "name": "Kurisumala Benedictine Ashram",
+    "location": { "city": "Vagamon", "country": "India", "lat": 9.6861, "lng": 76.9042 },
+    "googleMapsUrl": "http://kurisumalaashram.in",
+    "type": ["Ashram", "Christian"],
+    "tradition": "Christian",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "A Benedictine monastery in the Kerala mountains that follows Indian ashram customs.",
+    "highlights": ["High altitude", "Beautiful dairy farm", "Interfaith customs"]
+  },
+  {
+    "id": "india-iyengar-yoga",
+    "name": "Iyengar Yoga Himalayan Center",
+    "location": { "city": "Dharamkot", "country": "India", "lat": 32.2475, "lng": 76.3268 },
+    "googleMapsUrl": "https://www.hiyogacentre.com/",
+    "type": ["Yoga"],
+    "tradition": "Iyengar",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Well-regarded yoga center in the mountains above Dharamsala.",
+    "highlights": ["Himalayan views", "Intensive courses", "Experienced teachers"]
+  },
+  {
+    "id": "india-universal-yoga",
+    "name": "Universal Yoga",
+    "location": { "city": "Dharamkot", "country": "India", "lat": 32.2465, "lng": 76.3258 },
+    "googleMapsUrl": "http://vijaypoweryoga.site/",
+    "type": ["Yoga"],
+    "tradition": "Power Yoga",
+    "trustTier": "neutral",
+    "beginnerFriendly": true,
+    "wolfSays": "Vijay's power yoga. Intense and popular with the backpacker crowd.",
+    "highlights": ["Intense physical practice", "Drop-in classes", "Dharamkot scene"]
+  },
+  {
+    "id": "india-sherab-ling",
+    "name": "Sherab Ling Monastery",
+    "location": { "city": "Bir", "country": "India", "lat": 32.0456, "lng": 76.7212 },
+    "googleMapsUrl": "https://www.palpung.org/",
+    "type": ["Monastery", "Retreat"],
+    "tradition": "Tibetan (Karma Kagyu)",
+    "trustTier": "recommended",
+    "beginnerFriendly": false,
+    "wolfSays": "A major seat of the Tai Situ Rinpoche. Offers independent retreat cabins and occasional major events.",
+    "highlights": ["Stunning architecture", "Secluded forest", "Major empowerments"]
+  },
+  {
+    "id": "india-haidakhan-babaji",
+    "name": "Haidakhan Babaji Ashram",
+    "location": { "city": "Haldwani", "country": "India", "lat": 29.2183, "lng": 79.5131 },
+    "googleMapsUrl": "http://www.haidakhandibyasamaj.org/",
+    "type": ["Ashram"],
+    "tradition": "Babaji",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Excellent reviews for this mountain ashram. Very peaceful and authentic.",
+    "highlights": ["River setting", "Devotional atmosphere", "Himalayan foothills"]
+  },
+  {
+    "id": "india-sivananda-madurai",
+    "name": "Sivananda Madurai Yoga Center",
+    "location": { "city": "Madurai", "country": "India", "lat": 9.9252, "lng": 78.1198 },
+    "googleMapsUrl": "http://sivananda.org.in/madurai/",
+    "type": ["Yoga", "Ashram"],
+    "tradition": "Sivananda",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Classic Sivananda training in South India. Disciplined and traditional.",
+    "highlights": ["Structured schedule", "Yoga teacher training", "Traditional ashram life"]
+  },
+  {
+    "id": "india-anantha-niketan",
+    "name": "Anantha Niketan Ashram",
+    "location": { "city": "Tiruvannamalai", "country": "India", "lat": 12.2258, "lng": 79.0747 },
+    "googleMapsUrl": "http://www.sriananthaniketan.com/",
+    "type": ["Ashram", "Retreat"],
+    "tradition": "Advaita",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Hosts visiting teachers and retreats. A nice alternative to the busier Ramana Ashram.",
+    "highlights": ["Quiet setting", "Visiting teachers", "Near Arunachala"]
+  },
+  {
+    "id": "india-akshi-yogashala",
+    "name": "Akshi Yogashala",
+    "location": { "city": "Rishikesh", "country": "India", "lat": 30.1245, "lng": 78.3212 },
+    "googleMapsUrl": "https://www.akshiyogashala.org/",
+    "type": ["Yoga", "School"],
+    "tradition": "Hatha/Ashtanga",
+    "trustTier": "neutral",
+    "beginnerFriendly": true,
+    "wolfSays": "One of the many yoga schools in Rishikesh. Good for TTC (Teacher Training Courses).",
+    "highlights": ["Ganges view", "Yoga Alliance certified", "Community feel"]
+  },
+  {
+    "id": "india-ajatananda",
+    "name": "Ajatananda Ashram",
+    "location": { "city": "Rishikesh", "country": "India", "lat": 30.1267, "lng": 78.3234 },
+    "googleMapsUrl": "https://ajatananda.org/",
+    "type": ["Ashram", "Non-dual"],
+    "tradition": "Interfaith/Advaita",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Non-residential teachings. Very deep and high quality Advaita content.",
+    "highlights": ["Interfaith approach", "Deep philosophy", "Rishikesh center"]
+  },
+  {
+    "id": "nepal-ibmc",
+    "name": "International Buddhist Meditation Center",
+    "location": { "city": "Kathmandu", "country": "Nepal", "lat": 27.7172, "lng": 85.3240 },
+    "googleMapsUrl": "http://www.ibmc.org.np/",
+    "type": ["Vipassana"],
+    "tradition": "Mahasi",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Affiliated with Panditarama. A good place to start in Kathmandu before heading to Lumbini.",
+    "highlights": ["City location", "Experienced monks", "Traditional Mahasi"]
+  },
+  {
+    "id": "nepal-thrangu-sekhar",
+    "name": "Thrangu Sekhar Retreat Center",
+    "location": { "city": "Bhaktapur", "country": "Nepal", "lat": 27.6710, "lng": 85.4298 },
+    "googleMapsUrl": "http://namobuddha.org/retreat.html",
+    "type": ["Retreat", "Monastery"],
+    "tradition": "Tibetan (Kagyu)",
+    "trustTier": "recommended",
+    "beginnerFriendly": false,
+    "wolfSays": "A dedicated retreat center overlooking the valley. Very peaceful.",
+    "highlights": ["Himalayan views", "Quiet Bhaktapur hills", "Deep practice"]
+  },
+  {
+    "id": "thailand-wat-chom-tong",
+    "name": "Wat Chom Tong",
+    "location": { "city": "Chom Tong", "country": "Thailand", "lat": 18.4167, "lng": 98.6833 },
+    "googleMapsUrl": "https://www.watchomtong.com/",
+    "type": ["Vipassana"],
+    "tradition": "Theravada (Ajahn Tong)",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Famous center for the Ajahn Tong method. Intense but rewarding.",
+    "highlights": ["Ajahn Tong legacy", "Individual interviews", "Traditional Thai wat"]
+  },
+  {
+    "id": "thailand-imonastery",
+    "name": "Imonastery",
+    "location": { "city": "Chiang Mai", "country": "Thailand", "lat": 18.7883, "lng": 98.9853 },
+    "googleMapsUrl": "https://imonastery.com/",
+    "type": ["Retreat"],
+    "tradition": "Theravada",
+    "trustTier": "neutral",
+    "beginnerFriendly": true,
+    "wolfSays": "A modern take on the forest retreat. Very accessible for foreigners.",
+    "highlights": ["Modern facilities", "English instruction", "Forest setting"]
+  },
+  {
+    "id": "thailand-plum-village",
+    "name": "Thai Plum Village",
+    "location": { "city": "Pak Chong", "country": "Thailand", "lat": 14.7083, "lng": 101.4167 },
+    "googleMapsUrl": "http://www.thaiplumvillage.org/",
+    "type": ["Vipassana", "Community"],
+    "tradition": "Plum Village (Thich Nhat Hanh)",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "The largest Plum Village center in Asia. Beautiful practice of mindful living.",
+    "highlights": ["Mindful walking", "Community singing", "Vegan food"]
+  },
+  {
+    "id": "sri-lanka-paramita",
+    "name": "Paramita International Buddhist Centre",
+    "location": { "city": "Kadugannawa", "country": "Sri Lanka", "lat": 7.2583, "lng": 80.5222 },
+    "googleMapsUrl": "http://paramitaibc.org/",
+    "type": ["Retreat"],
+    "tradition": "Theravada",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Close to Kandy. Welcomes foreigners and offers a good introduction to Sri Lankan practice.",
+    "highlights": ["Near Kandy", "Quiet setting", "Foreigner friendly"]
+  },
+  {
+    "id": "global-amaravati",
+    "name": "Amaravati Monastery",
+    "location": { "city": "Hertfordshire", "country": "Global", "lat": 51.7967, "lng": -0.5167 },
+    "googleMapsUrl": "https://www.amaravati.org/",
+    "type": ["Monastery", "Retreat"],
+    "tradition": "Thai Forest (Ajahn Chah)",
+    "trustTier": "top-pick",
+    "beginnerFriendly": true,
+    "wolfSays": "Home of Ajahn Amaro. One of the best places in the West for traditional forest practice.",
+    "highlights": ["Ajahn Amaro", "Beautiful temple", "Donation based"]
+  },
+  {
+    "id": "india-kanzeon-zendo",
+    "name": "Kanzeon Zendo",
+    "location": { "city": "Perumalmalai", "country": "India", "lat": 10.2685, "lng": 77.5512 },
+    "googleMapsUrl": "https://kanzeonzendo.in/",
+    "type": ["Zen"],
+    "tradition": "Zen (Father Ama Samy)",
+    "trustTier": "top-pick",
+    "beginnerFriendly": false,
+    "wolfSays": "Father Ama's Zen center. For those with a serious interest in Zen. Excellent and demanding.",
+    "highlights": ["Father Ama Samy", "Serious Zen focus", "Near Bodhi Zendo"]
+  },
+  {
+    "id": "india-bodhi-vanam",
+    "name": "Bodhi Vanam",
+    "location": { "city": "Palani Rd", "country": "India", "lat": 10.2812, "lng": 77.5212 },
+    "googleMapsUrl": "https://veda.bodhivanam.org",
+    "type": ["Zen", "Osho", "Yoga"],
+    "tradition": "Mixed (Ananda)",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Run by Ananda. Teaches workshops and has a very creative, open vibe.",
+    "highlights": ["Workshops", "Creative atmosphere", "Mountain setting"]
+  },
+  {
+    "id": "india-vasanta-vihar",
+    "name": "Vasanta Vihar (KFI)",
+    "location": { "city": "Chennai", "country": "India", "lat": 13.0067, "lng": 80.2581 },
+    "googleMapsUrl": "https://www.jkrishnamurti.in/stay-on-campus/",
+    "type": ["Krishnamurti"],
+    "tradition": "J. Krishnamurti",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "The Krishnamurti foundation in Chennai. A quiet campus for study and reflection.",
+    "highlights": ["Krishnamurti archive", "Quiet city oasis", "Study library"]
+  },
+  {
+    "id": "india-amma-ashram",
+    "name": "Amma's Ashram (Amritapuri)",
+    "location": { "city": "Kollam", "country": "India", "lat": 9.0917, "lng": 76.4867 },
+    "googleMapsUrl": "https://www.amritapuri.org/ashram",
+    "type": ["Ashram", "Devotional"],
+    "tradition": "Amma (Mata Amritanandamayi)",
+    "trustTier": "neutral",
+    "beginnerFriendly": true,
+    "wolfSays": "Huge. Can be overwhelming, but a powerful experience if you connect with Amma.",
+    "highlights": ["The Hugging Saint", "Massive community", "Seaside location"]
+  },
+  {
+    "id": "india-anandashram",
+    "name": "Anandashram",
+    "location": { "city": "Kanhangad", "country": "India", "lat": 12.3167, "lng": 75.1167 },
+    "googleMapsUrl": "http://www.anandashram.org/",
+    "type": ["Ashram"],
+    "tradition": "Swami Ramdas",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "A very sweet, devotional ashram. Known for constant chanting of Om Sri Ram Jai Ram Jai Jai Ram.",
+    "highlights": ["Devotional chanting", "Sweet atmosphere", "Kerala greenery"]
+  },
+  {
+    "id": "nepal-ryi",
+    "name": "Rangjung Yeshe Institute",
+    "location": { "city": "Boudhanath", "country": "Nepal", "lat": 27.7212, "lng": 85.3612 },
+    "googleMapsUrl": "https://www.ryi.org/",
+    "type": ["Course", "College"],
+    "tradition": "Tibetan (Chokyi Nyima Rinpoche)",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "College-level Buddhism courses. Excellent academic and practice environment.",
+    "highlights": ["Boudhanath stupa nearby", "Academic rigor", "Tibetan language classes"]
+  },
+  {
+    "id": "nepal-pullahari",
+    "name": "Pullahari Monastery",
+    "location": { "city": "Boudhanath", "country": "Nepal", "lat": 27.7312, "lng": 85.3712 },
+    "googleMapsUrl": "http://www.jamgonkongtrul.org/",
+    "type": ["Monastery", "Retreat"],
+    "tradition": "Tibetan (Kagyu)",
+    "trustTier": "recommended",
+    "beginnerFriendly": false,
+    "wolfSays": "Beautiful monastery overlooking the valley. Very quiet and conducive to retreat.",
+    "highlights": ["Valley views", "Jamgon Kongtrul Rinpoche", "Peaceful"]
+  },
+  {
+    "id": "nepal-benchen",
+    "name": "Benchen Monastery",
+    "location": { "city": "Pharping", "country": "Nepal", "lat": 27.6167, "lng": 85.2833 },
+    "googleMapsUrl": "https://benchen.org/en/",
+    "type": ["Monastery", "Retreat"],
+    "tradition": "Tibetan (Kagyu)",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Located in Pharping, a major pilgrimage site. Great for those visiting the caves.",
+    "highlights": ["Pharping location", "Pilgrimage caves nearby", "Traditional Tibetan"]
+  },
+  {
+    "id": "thailand-angthong",
+    "name": "Angthong International Meditation Center",
+    "location": { "city": "Ang Thong", "country": "Thailand", "lat": 14.5889, "lng": 100.4583 },
+    "googleMapsUrl": "https://www.paaukthailand.org/en/home-en/",
+    "type": ["Vipassana"],
+    "tradition": "Pa Auk (Samatha/Vipassana)",
+    "trustTier": "recommended",
+    "beginnerFriendly": false,
+    "wolfSays": "Serious Pa Auk style center. Focus on deep Jhana before Vipassana.",
+    "highlights": ["Pa Auk method", "Deep Samatha focus", "Strict schedule"]
+  },
+  {
+    "id": "thailand-boonkanjanaram",
+    "name": "Boonkanjanaram",
+    "location": { "city": "Pattaya", "country": "Thailand", "lat": 12.8944, "lng": 100.8753 },
+    "googleMapsUrl": "http://boonkan.com/",
+    "type": ["Vipassana"],
+    "tradition": "Theravada",
+    "trustTier": "recommended",
+    "beginnerFriendly": false,
+    "wolfSays": "Good for advanced meditators. Individual practice in a traditional setting.",
+    "highlights": ["Independent practice", "Pattaya retreat", "Traditional"]
+  },
+  {
+    "id": "burma-pa-auk",
+    "name": "Pa-Auk Tawya",
+    "location": { "city": "Mawlamyine", "country": "Burma", "lat": 16.4833, "lng": 97.6333 },
+    "googleMapsUrl": "https://www.paaukforestmonastery.org/",
+    "type": ["Vipassana", "Monastery"],
+    "tradition": "Pa Auk (Samatha/Vipassana)",
+    "trustTier": "top-pick",
+    "beginnerFriendly": false,
+    "wolfSays": "The main Pa Auk center. Famous for teaching 40 subjects of Samatha.",
+    "highlights": ["Mastery of Jhana", "Huge forest monastery", "Intensive"]
+  },
+  {
+    "id": "global-gaia-house",
+    "name": "Gaia House",
+    "location": { "city": "Devon", "country": "Global", "lat": 50.4812, "lng": -3.6122 },
+    "googleMapsUrl": "https://gaiahouse.co.uk/",
+    "type": ["Vipassana"],
+    "tradition": "Insight Meditation",
+    "trustTier": "top-pick",
+    "beginnerFriendly": true,
+    "wolfSays": "One of the best in the West. Very well run and excellent teachers.",
+    "highlights": ["Rural England", "Diverse teachers", "Silent retreat"]
+  },
+  {
+    "id": "india-tibet-house",
+    "name": "Tibet House",
+    "location": { "city": "New Delhi", "country": "India", "lat": 28.5861, "lng": 77.2272 },
+    "googleMapsUrl": "https://tibethouse.in/",
+    "type": ["Course", "Cultural"],
+    "tradition": "Tibetan (Gelugpa)",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "His Holiness the Dalai Lama's cultural center. Great online programs and local events in Delhi.",
+    "highlights": ["Dalai Lama heritage", "Excellent library", "Scholarly approach"]
+  },
+  {
+    "id": "india-kushinagar",
+    "name": "Linh Son Monastery",
+    "location": { "city": "Kushinagar", "country": "India", "lat": 26.7412, "lng": 83.8912 },
+    "googleMapsUrl": "https://maps.app.goo.gl/Kushinagar",
+    "type": ["Monastery", "Pilgrimage"],
+    "tradition": "Mixed",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Kushinagar is a chill town. The place where the Buddha passed away. Very peaceful pilgrimage site.",
+    "highlights": ["Parinirvana site", "Quiet pilgrimage", "International monasteries"]
+  },
+  {
+    "id": "burma-chanmay-myaing",
+    "name": "Chanmay Myaing",
+    "location": { "city": "Yangon", "country": "Burma", "lat": 16.9512, "lng": 96.1412 },
+    "googleMapsUrl": "http://www.meditation-in-burma.com/",
+    "type": ["Vipassana", "Metta"],
+    "tradition": "Mahasi",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Famous for its Metta (Loving-Kindness) retreats in January and February.",
+    "highlights": ["Metta focus", "Friendly environment", "Burmese hospitality"]
+  },
+  {
+    "id": "global-satipanya",
+    "name": "Satipanya Retreat Center",
+    "location": { "city": "Wales", "country": "Global", "lat": 52.4812, "lng": -3.1122 },
+    "googleMapsUrl": "https://www.satipanya.org.uk/",
+    "type": ["Vipassana"],
+    "tradition": "Mahasi",
+    "trustTier": "recommended",
+    "beginnerFriendly": true,
+    "wolfSays": "Mahasi style in the Welsh hills. Bhante Bodhidhamma is a very experienced teacher.",
+    "highlights": ["Welsh countryside", "Mahasi method in UK", "Small and personal"]
+  }
+]

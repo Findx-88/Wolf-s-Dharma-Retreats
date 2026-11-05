@@ -1,0 +1,104 @@
+
+<style>
+  .plan { padding: 1.5rem 0; font-family: var(--font-sans); }
+  .section-title { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); letter-spacing: .05em; text-transform: uppercase; margin: 0 0 1rem; }
+  .page-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin-bottom: 2rem; }
+  .page-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.1rem; cursor: pointer; transition: border-color .15s; }
+  .page-card:hover { border-color: var(--color-border-secondary); }
+  .page-card.featured { border: 1.5px solid var(--color-border-info); }
+  .page-icon { font-size: 16px; margin-bottom: 6px; }
+  .page-name { font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 4px; }
+  .page-desc { font-size: 12px; color: var(--color-text-secondary); line-height: 1.5; margin: 0; }
+  .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-bottom: 2rem; }
+  .feature-row { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: .75rem 1rem; display: flex; gap: 10px; align-items: flex-start; }
+  .feature-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
+  .feature-text { font-size: 13px; color: var(--color-text-primary); line-height: 1.5; }
+  .tech-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 2rem; }
+  .tech-badge { font-size: 12px; padding: 4px 12px; border-radius: 99px; background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); color: var(--color-text-secondary); }
+  .divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1.5rem 0; }
+  .cta-btn { display: inline-block; font-size: 13px; padding: 8px 18px; border: 0.5px solid var(--color-border-secondary); border-radius: var(--border-radius-md); background: transparent; color: var(--color-text-primary); cursor: pointer; }
+  .cta-btn:hover { background: var(--color-background-secondary); }
+</style>
+
+<div class="plan">
+  <p class="section-title">Pages</p>
+  <div class="page-grid">
+    <div class="page-card featured" onclick="sendPrompt('Build the homepage for the Dharma Retreat website')">
+      <div class="page-icon">🏠</div>
+      <p class="page-name">Homepage</p>
+      <p class="page-desc">Hero quote from Dhammapada, top picks by country, search bar, author intro</p>
+    </div>
+    <div class="page-card" onclick="sendPrompt('Build the Browse Retreats page for the Dharma Retreat website')">
+      <div class="page-icon">🗺️</div>
+      <p class="page-name">Browse retreats</p>
+      <p class="page-desc">Filter by country (India, Nepal, Thailand, Burma…), tradition, and recommendation status</p>
+    </div>
+    <div class="page-card" onclick="sendPrompt('Build a Retreat Detail page for the Dharma Retreat website')">
+      <div class="page-icon">📍</div>
+      <p class="page-name">Retreat detail</p>
+      <p class="page-desc">Full review, external link, map pin, country tag, Wolf's recommendation badge</p>
+    </div>
+    <div class="page-card" onclick="sendPrompt('Build the Teachings & Essays page for the Dharma Retreat website')">
+      <div class="page-icon">📖</div>
+      <p class="page-name">Teachings & essays</p>
+      <p class="page-desc">Wolf's writings on concentration, rigidity, Goenka centers, and guru red flags</p>
+    </div>
+    <div class="page-card" onclick="sendPrompt('Build the Red Flags / Avoid page for the Dharma Retreat website')">
+      <div class="page-icon">🚩</div>
+      <p class="page-name">Red flags</p>
+      <p class="page-desc">Blacklist section, cult checklist, Wayanad Ashram appendix, TWIM warning</p>
+    </div>
+    <div class="page-card" onclick="sendPrompt('Build the About / Contact page for the Dharma Retreat website')">
+      <div class="page-icon">✉️</div>
+      <p class="page-name">About & contact</p>
+      <p class="page-desc">Wolf's story, Creative Commons notice, email for submissions</p>
+    </div>
+  </div>
+
+  <hr class="divider">
+  <p class="section-title">Key features</p>
+  <div class="feature-grid">
+    <div class="feature-row">
+      <div class="feature-dot" style="background:#1D9E75"></div>
+      <span class="feature-text">Country filter tabs — India, Nepal, Thailand, Malaysia, Sri Lanka, Burma, China</span>
+    </div>
+    <div class="feature-row">
+      <div class="feature-dot" style="background:#378ADD"></div>
+      <span class="feature-text">Interactive map with retreat pins (Google Maps or Leaflet)</span>
+    </div>
+    <div class="feature-row">
+      <div class="feature-dot" style="background:#7F77DD"></div>
+      <span class="feature-text">"Wolf recommends" badge vs neutral listing</span>
+    </div>
+    <div class="feature-row">
+      <div class="feature-dot" style="background:#D85A30"></div>
+      <span class="feature-text">Red flag / blacklist callout component</span>
+    </div>
+    <div class="feature-row">
+      <div class="feature-dot" style="background:#BA7517"></div>
+      <span class="feature-text">Search retreats by name or location</span>
+    </div>
+    <div class="feature-row">
+      <div class="feature-dot" style="background:#639922"></div>
+      <span class="feature-text">Christopher Titmuss's 10 tips as a styled checklist</span>
+    </div>
+  </div>
+
+  <hr class="divider">
+  <p class="section-title">Suggested tech stack</p>
+  <div class="tech-row">
+    <span class="tech-badge">Next.js or plain HTML/CSS</span>
+    <span class="tech-badge">Tailwind CSS</span>
+    <span class="tech-badge">Markdown / JSON for retreat data</span>
+    <span class="tech-badge">Leaflet.js for maps</span>
+    <span class="tech-badge">Vercel / Netlify hosting</span>
+  </div>
+
+  <hr class="divider">
+  <p class="section-title">Build a page now</p>
+  <div style="display:flex;gap:10px;flex-wrap:wrap">
+    <button class="cta-btn" onclick="sendPrompt('Build a full working homepage for the Wolf\'s Guide to Dharma Retreats website as an HTML file')">Build homepage ↗</button>
+    <button class="cta-btn" onclick="sendPrompt('Build the Browse Retreats page with country filters and sample retreat cards')">Browse retreats page ↗</button>
+    <button class="cta-btn" onclick="sendPrompt('Give me a JSON data structure for all the retreat centers mentioned in the PDF')">Export retreat data as JSON ↗</button>
+  </div>
+</div>

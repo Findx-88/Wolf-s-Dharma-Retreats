@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wolf's Guide to Dharma Retreats</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>🐺 Wolf's Dharma Guide</h1>
+      <nav>
+        <a href="#about" style="margin-right: 1.5rem; color: var(--text-main); font-weight: 500;">First Timer?</a>
+        <a href="#browse" style="margin-right: 1.5rem; color: var(--text-main); font-weight: 500;">Browse</a>
+        <a href="#essays" style="color: var(--text-main); font-weight: 500;">Essays</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h2>Find Your Next Retreat.</h2>
+        <p>A brutally honest, 110-page guide to 80+ meditation centers, ashrams, and monasteries across Asia. Filter by tradition, read red-flag warnings, and discover the best spots to practice.</p>
+        <a href="#browse" style="display: inline-block; background: var(--accent-saffron); color: white; padding: 0.75rem 1.5rem; border-radius: var(--radius-sm); font-weight: 600;">Browse Top Picks</a>
+      </section>
+
+      <section id="retreats-container">
+        <h3 style="margin-bottom: 1.5rem; font-size: 2rem;">Featured Centers</h3>
+        <div class="retreat-grid" id="grid">
+          <!-- Retreat cards will be injected here by main.js -->
+          <div style="text-align: center; grid-column: 1 / -1; padding: 3rem; color: var(--text-muted);">
+            Loading retreats...
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Based on "Wolf's Guide to Dharma Retreats & Teachings"</p>
+      <p style="font-size: 0.8rem; margin-top: 0.5rem;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
